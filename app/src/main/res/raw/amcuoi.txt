@@ -1,0 +1,12 @@
+﻿p	-TK
+c	-NK
+t	-NT
+ch	-GK
+u	-JG
+ng	-G
+i	-J
+y	-JN
+nh	-K
+m	-T
+n	-N
+o	-JK

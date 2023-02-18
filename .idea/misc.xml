@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/drawable/border_textview.xml" value="0.2165" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/drawable/btn_bg.xml" value="0.2415" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/drawable/button_background.xml" value="0.236" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/drawable/cricle_button.xml" value="0.2165" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/drawable/cricle_button_1.xml" value="0.173" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/drawable/cricle_button_1_press.xml" value="0.1565" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/drawable/cricle_button_2.xml" value="0.2165" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/drawable/cricle_button_3.xml" value="0.2165" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/drawable/cricle_button_4.xml" value="0.2165" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/font/thorletto_font.xml" value="0.25" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/layout/activity_home.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/layout/activity_option_practice.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/layout/activity_practice.xml" value="0.176" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/layout/activity_setting.xml" value="0.20316301703163017" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/layout/layout_dialog.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Dell Precision/AndroidStudioProjects/TestProject/app/src/main/res/layout/layout_instruct.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
