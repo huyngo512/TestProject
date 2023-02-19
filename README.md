@@ -1,20 +1,20 @@
-### Bộ gõ tốc ký Tiếng Việt trên Android
+### Vietnamese shorthand typing software on Android
 
-## Hướng dẫn setup trên máy tính: 
+## Instructions for setting up on the computer:
 
-- Clone source code project từ branch "master" vào project trong Android Studio và run app.
+- Clone source code project from branch "master" into project in Android Studio and run app.
 
-## Hướng dẫn setup trên điện thoại:
+## Instructions for setting up on the phone:
 
-- Bước 1: Bật chế độ "nhà phát triển" của điện thoại.
+- Step 1: Turn on the "Developer" mode of your phone.
 
-- Bước 2: Bật chế độ "Gỡ lỗi USB" trong mục Cài đặt/Cài đặt bổ sung/Tùy chọn nhà phát triển.
+- Step 2: Enable "USB Debugging" mode in Settings/Additional settings/Developer options.
 
-- Bước 3: Kết nối điện thoại và máy tính bằng dây cáp.
+- Step 3: Connect your phone and computer with a USB cable.
 
-- Bước 4: Run app trên máy tính và đồng ý install app trên điện thoại.
+- Step 4: Run the app on the computer and agree to install the app on the phone.
 
-- Bước 5: Vào Cài đặt trên điện thoại và tắt các cử chỉ thông minh liên quan đến việc chạm vào màn hình.
+- Step 5: Go to Settings on your phone and turn off smart gestures that involve touching the screen.
 
-- Bước 6: Có thể bắt đầu sử dụng app.
+- Step 6: Can start using app.
 
