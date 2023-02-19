@@ -285,7 +285,7 @@ public class PracticeActivity extends AppCompatActivity {
     }
 
     public boolean checkEndPractice(int option, int index){
-        if((option == 0 && index == 27) || (option == 1 && index == 127) || (option == 2 && index == 12)){
+        if((option == 0 && index == 26) || (option == 1 && index == 172) || (option == 2 && index == 12)){
             return true;
         }
         return false;
