@@ -18,3 +18,7 @@
 
 - Step 6: Can start using app.
 
+## Dictionaries and rules:
+
+- The dictionary and rule files are located in the project's "Raw" folder.
+
