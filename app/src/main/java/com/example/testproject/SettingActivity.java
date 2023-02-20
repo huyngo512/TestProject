@@ -6,9 +6,12 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.ConstraintSet;
 
 import android.annotation.SuppressLint;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -19,6 +22,8 @@ import android.view.animation.AnimationUtils;
 import java.sql.SQLOutput;
 
 public class SettingActivity extends AppCompatActivity {
+
+    Dialog dialog;
 
     public AppCompatButton homeButton, saveButton;
 
@@ -43,6 +48,8 @@ public class SettingActivity extends AppCompatActivity {
 
         context = SettingActivity.this;
         ExtensionMethod.hideNavigationBar(context);
+
+        dialog = new Dialog(this);
 
         PACKAGE_NAME = getApplicationContext().getPackageName();
 
@@ -103,6 +110,8 @@ public class SettingActivity extends AppCompatActivity {
             return true;
         });
 
+        openDialog();
+
     }
 
     @Override
@@ -147,5 +156,15 @@ public class SettingActivity extends AppCompatActivity {
         if (sharedHeightPreferences.getFloat(String.valueOf(index), 0) != 0) {
             constraintSet.setVerticalBias(button.getId(), sharedHeightPreferences.getFloat(String.valueOf(index), 0));
         }
+    }
+    private void openDialog() {
+        dialog.setContentView(R.layout.layout_dialog_setting);
+        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+
+        AppCompatButton btnOK = dialog.findViewById(R.id.btnClose_setting);
+        btnOK.setOnClickListener(view -> {
+            dialog.dismiss();
+        });
+        dialog.show();
     }
 }
