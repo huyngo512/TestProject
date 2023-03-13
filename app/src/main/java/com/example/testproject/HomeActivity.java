@@ -150,9 +150,6 @@ public class HomeActivity extends AppCompatActivity {
                 rulesEditor.putString(part[1], part[0]);
                 dataEditor.putString(String.valueOf(i), part[1]);
                 i++;
-                if(document.equals("amcuoi")){
-                    Log.d("check", part[0] + " " + part[0].length());
-                }
                 line = reader.readLine();
             }
             rulesEditor.apply();
