@@ -1,4 +1,5 @@
-﻿p	-TK
+﻿
+p	-TK
 c	-NK
 t	-NT
 ch	-GK

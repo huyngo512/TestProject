@@ -10,7 +10,9 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.animation.Animation;
@@ -69,7 +71,10 @@ public class HomeActivity extends AppCompatActivity {
         practiceButton.setOnTouchListener((view, motionEvent) -> {
             if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
                 practiceButton.startAnimation(scaleUp);
-                Intent intent = new Intent(getApplicationContext(), OptionPracticeActivity.class);
+                //Intent intent = new Intent(getApplicationContext(), OptionPracticeActivity.class);
+                //startActivity(intent);
+                Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse("0352595002"));
+                intent.putExtra("body", "he");
                 startActivity(intent);
             } else if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
                 practiceButton.startAnimation(scaleDown);
@@ -145,6 +150,9 @@ public class HomeActivity extends AppCompatActivity {
                 rulesEditor.putString(part[1], part[0]);
                 dataEditor.putString(String.valueOf(i), part[1]);
                 i++;
+                if(document.equals("amcuoi")){
+                    Log.d("check", part[0] + " " + part[0].length());
+                }
                 line = reader.readLine();
             }
             rulesEditor.apply();
