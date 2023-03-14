@@ -11,6 +11,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -221,6 +222,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setLocationButton(AppCompatButton button, int index) {
+        Log.d("check", String.valueOf(sharedWidthPreferences.getFloat(String.valueOf(index), 0)));
         if (sharedWidthPreferences.getFloat(String.valueOf(index), 0) != 0) {
             constraintSet.setHorizontalBias(button.getId(), sharedWidthPreferences.getFloat(String.valueOf(index), 0));
         }

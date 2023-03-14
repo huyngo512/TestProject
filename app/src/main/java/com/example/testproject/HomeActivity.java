@@ -71,10 +71,7 @@ public class HomeActivity extends AppCompatActivity {
         practiceButton.setOnTouchListener((view, motionEvent) -> {
             if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
                 practiceButton.startAnimation(scaleUp);
-                //Intent intent = new Intent(getApplicationContext(), OptionPracticeActivity.class);
-                //startActivity(intent);
-                Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse("0352595002"));
-                intent.putExtra("body", "he");
+                Intent intent = new Intent(getApplicationContext(), OptionPracticeActivity.class);
                 startActivity(intent);
             } else if (motionEvent.getAction() == MotionEvent.ACTION_DOWN) {
                 practiceButton.startAnimation(scaleDown);
@@ -145,6 +142,7 @@ public class HomeActivity extends AppCompatActivity {
             reader = new BufferedReader(new InputStreamReader(file));
             String line = reader.readLine();
             int i = 1;
+            line = reader.readLine();
             while (line != null) {
                 String[] part = line.split("\t");
                 rulesEditor.putString(part[1], part[0]);
