@@ -222,7 +222,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setLocationButton(AppCompatButton button, int index) {
-        Log.d("check", String.valueOf(sharedWidthPreferences.getFloat(String.valueOf(index), 0)));
+
         if (sharedWidthPreferences.getFloat(String.valueOf(index), 0) != 0) {
             constraintSet.setHorizontalBias(button.getId(), sharedWidthPreferences.getFloat(String.valueOf(index), 0));
         }
